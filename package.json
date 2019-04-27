@@ -1,0 +1,20 @@
+{
+  "name": "mock_mvc_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "json-server": "^0.14.2",
+    "nodemon": "^1.18.11"
+  },
+  "devDependencies": {
+    "@types/json-server": "^0.14.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  }
+}
